@@ -1,0 +1,283 @@
+﻿
+/*************************
+*******Typography******
+**************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100&subset=latin,cyrillic-ext,cyrillic);
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400&subset=cyrillic,cyrillic-ext');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: black;
+    position: relative;
+    font-weight: 400px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-brand {
+    color: #c33e3e;
+}
+
+.wrapper {
+    background-image: url("https://ilyakhasanov.ru/images/background/66.png");
+    padding-bottom:20px;
+}
+
+.navbar {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    border-radius:0;
+}
+
+.about {
+    padding-top: 20vh;
+    text-align: center;
+    padding-bottom: 20vh;
+    background-image: url("https://ilyakhasanov.ru/images/background/124.png");
+}
+
+.reason_list {
+    background: #c33e3e;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+} 
+
+.reason_icon{
+    padding: 20px;
+}
+
+.reason_text {
+    color: black;
+    font-size: 30px;
+}
+
+.about p {
+    font-family: Book Antiqua;
+    font-size: 40px;
+    color: black;    
+}
+
+.staff {
+    background: #3a3a3a;
+}
+
+.reviews {
+    background: #c7b380;
+}
+
+.games {
+    background-image: url("https://ilyakhasanov.ru/images/background/63.png");
+    background-color: #c7b380;
+}
+
+.about_info {
+    padding: 50px 30px 100px 30px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.page_title {
+    font-family: Book Antiqua;
+    margin-top: 40px;
+    border-bottom: 2px solid #c33e3e;
+    padding: 20px;
+    font-size: 40px;
+    color: #c33e3e; 
+}
+
+.about_photo {
+    padding: 50px 30px 0 30px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    color: white;
+}
+
+.ifurykira {
+}
+
+.round {
+    border-radius: 30px;
+}
+
+.about_photo p{
+   font-family: 'Fira Sans', sans-serif;
+   padding: 10px;
+   text-align: center;
+}
+
+.main_staff {
+    min-height: 10vh;
+    border-bottom: 1px solid #755d00;
+    background: rgba(0,0,0,1);
+}
+
+.about_buffer {
+    height: 10vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));   
+}
+
+.about_buffer_2 {
+    height: 5vh;
+    background: rgba(0,0,0,1);
+}
+
+.shadow {
+    background: rgba(0,0,0,0.8);
+}
+
+.about_buffer_main {
+    border-top: 1px solid #755d00;
+    position: absolute;
+    bottom: 0px;
+    height: 5vh;
+    background: rgba(0,0,0,1);
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.main_page p {
+    font-size: 40px;
+}
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+    background: black;
+}
+* html .page-wrapper {
+    height: 100%;
+}
+.page-buffer {
+    height: 50px;
+}
+
+.game_box {
+    padding: 0;
+    margin-top: 50px;
+    background: rgba(0,0,0,0.6);
+}
+
+.game_title {
+    background: rgba(0,0,0,0.9);
+    padding: 5px;
+    font-family: Book Antiqua;
+    font-size: 36px;
+    color: white;
+    text-align: center
+}
+
+.game_info {
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.game_logo {
+    padding: 0;
+}
+
+.review_avatar {
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.avatar {
+    border: 5px solid #292925;
+    border-radius: 100px;
+}
+
+.reviewer_name{
+   text-align: center;
+   font-size: 20px;
+   color: #c33e3e;
+}
+
+.review_text{
+   padding: 10px;
+   text-align: center;
+   font-size: 16px;
+   color: white;
+}
+
+.carousel-control.left{
+    left:-10%;
+    background-image: none;
+}
+.carousel-control.right {
+    right:-10%;
+    background-image: none;
+}
+
+.carousel-caption h3 {
+    text-shadow: black 0 0 4px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.page-footer {
+    color: white;
+}
+
+.footer-bottom {
+    padding-top: 15px;
+}
+
+.footer-bottom p {
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.footer-bottom p span a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    padding: 12px 24px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    color: black;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Book Antiqua;
+}
+
+.btn:hover {
+    outline: none;
+    box-shadow: none;
+    color: black;
+} 
+.btn:focus{
+    opacity: 0.5;
+    outline: none;
+    box-shadow: none;
+}
